@@ -116,13 +116,13 @@ export const ServicesGrid: React.FC = () => {
                     <p className="text-xs font-mono text-cyan uppercase tracking-wider mb-1 font-semibold">
                       Sintomas comuns:
                     </p>
-                    <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                    <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
                       {s.symptoms}
                     </p>
                   </div>
 
                   {/* Description */}
-                  <p className="text-sm text-slate-400 mb-6 leading-relaxed">
+                  <p className="text-sm text-slate-200 mb-6 leading-relaxed">
                     {s.description}
                   </p>
 
@@ -152,7 +152,7 @@ export const ServicesGrid: React.FC = () => {
 
                   <a
                     href={s.route}
-                    className="w-full text-center text-xs font-mono text-slate-400 hover:text-cyan transition-colors py-1"
+                    className="w-full text-center text-xs font-mono text-slate-300 hover:text-cyan transition-colors py-1"
                   >
                     Ver detalhes do serviço →
                   </a>

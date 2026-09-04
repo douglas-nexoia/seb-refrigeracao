@@ -82,7 +82,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div>
                   <p className="font-heading font-black text-xl text-white">90 Dias</p>
-                  <p className="text-xs text-slate-400 font-mono">Garantia formal (CDC)</p>
+                  <p className="text-xs text-slate-200 font-mono">Garantia formal (CDC)</p>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div>
                   <p className="font-heading font-black text-xl text-white">100%</p>
-                  <p className="text-xs text-slate-400 font-mono">Peças originais</p>
+                  <p className="text-xs text-slate-200 font-mono">Peças originais</p>
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div>
                   <p className="font-heading font-black text-xl text-white">No Local</p>
-                  <p className="text-xs text-slate-400 font-mono">Atendimento domiciliar</p>
+                  <p className="text-xs text-slate-200 font-mono">Atendimento domiciliar</p>
                 </div>
               </div>
             </div>

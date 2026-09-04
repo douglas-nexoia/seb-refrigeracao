@@ -68,7 +68,7 @@ export const GuaranteeSection: React.FC = () => {
                     <h3 className="font-heading font-black text-lg text-white mb-2">
                       {p.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-400 leading-relaxed font-sans">
+                    <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans">
                       {p.desc}
                     </p>
                   </div>

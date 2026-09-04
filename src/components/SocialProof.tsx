@@ -64,7 +64,7 @@ export const SocialProof: React.FC = () => {
                   <Quote className="w-5 h-5 text-white/20" />
                 </div>
 
-                <p className="text-sm sm:text-base text-slate-300 leading-relaxed mb-6 font-sans">
+                <p className="text-sm sm:text-base text-slate-200 leading-relaxed mb-6 font-sans">
                   "{t.text}"
                 </p>
               </div>
@@ -74,13 +74,13 @@ export const SocialProof: React.FC = () => {
                   <p className="font-heading font-black text-sm text-white">
                     {t.name}
                   </p>
-                  <p className="text-xs text-slate-400 font-mono flex items-center gap-1 mt-0.5">
+                  <p className="text-xs text-slate-300 font-mono flex items-center gap-1 mt-0.5">
                     <MapPin className="w-3 h-3 text-cyan" />
                     <span>{t.bairro}</span>
                   </p>
                 </div>
 
-                <span className="text-[11px] font-mono text-slate-400 px-2.5 py-1 rounded bg-white/5 border border-white/10">
+                <span className="text-[11px] font-mono text-slate-300 px-2.5 py-1 rounded bg-white/5 border border-white/10">
                   Garantia 90 dias
                 </span>
               </div>

@@ -68,7 +68,7 @@ export const HowItWorks: React.FC = () => {
                     {step.title}
                   </h3>
 
-                  <p className="text-xs sm:text-sm text-slate-400 leading-relaxed font-sans">
+                  <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans">
                     {step.desc}
                   </p>
                 </div>

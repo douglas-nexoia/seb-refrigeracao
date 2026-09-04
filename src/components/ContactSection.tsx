@@ -32,7 +32,7 @@ export const ContactSection: React.FC = () => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-black tracking-tight text-white mb-3">
               Solicite Seu Técnico em Domicílio
             </h2>
-            <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
+            <p className="text-slate-100 font-medium text-sm sm:text-base leading-relaxed">
               Atendimento em todas as zonas de São Paulo. Resposta ágil pelo WhatsApp ou ligação direta:
             </p>
           </div>
@@ -56,7 +56,7 @@ export const ContactSection: React.FC = () => {
                   <p className="text-base font-heading font-black text-white group-hover:text-whatsapp transition-colors">
                     (11) 94142-8160
                   </p>
-                  <p className="text-[11px] text-slate-300 font-sans mt-1">
+                  <p className="text-[11px] text-slate-200 font-sans mt-1">
                     Clique para iniciar a conversa com a equipe
                   </p>
                 </a>
@@ -74,7 +74,7 @@ export const ContactSection: React.FC = () => {
                   <p className="text-base font-mono font-bold text-white group-hover:text-cyan transition-colors">
                     {OFFICIAL_PHONE_DISPLAY}
                   </p>
-                  <p className="text-[11px] text-slate-300 font-sans mt-1">
+                  <p className="text-[11px] text-slate-200 font-sans mt-1">
                     Ligue agora se preferir falar por voz
                   </p>
                 </a>
@@ -83,13 +83,13 @@ export const ContactSection: React.FC = () => {
                 <div className="flex items-start gap-3 p-3.5 rounded-xl bg-white/5 border border-white/5">
                   <MapPin className="w-4 h-4 text-cyan flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-xs font-mono uppercase text-slate-300 font-bold">Base Operacional</p>
-                    <p className="text-xs text-slate-300 font-sans">São Paulo / SP — Atendimento nas 5 zonas</p>
+                    <p className="text-xs font-mono uppercase text-slate-200 font-bold">Base Operacional</p>
+                    <p className="text-xs text-slate-200 font-sans">São Paulo / SP — Atendimento nas 5 zonas</p>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-4 border-t border-white/10 flex items-center gap-2 text-xs text-slate-300 font-mono">
+              <div className="pt-4 border-t border-white/10 flex items-center gap-2 text-xs text-slate-200 font-mono">
                 <ShieldCheck className="w-4 h-4 text-cyan" />
                 <span>Garantia de 90 dias em peças e reparos</span>
               </div>
@@ -101,7 +101,7 @@ export const ContactSection: React.FC = () => {
                 <div>
                   <label
                     htmlFor="bairro-input"
-                    className="block text-xs font-mono uppercase tracking-wider text-slate-300 mb-1.5 font-semibold"
+                    className="block text-xs font-mono uppercase tracking-wider text-white font-semibold mb-1.5"
                   >
                     Seu Bairro / Região em São Paulo:
                   </label>
@@ -119,7 +119,7 @@ export const ContactSection: React.FC = () => {
                 <div>
                   <label
                     htmlFor="aparelho-input"
-                    className="block text-xs font-mono uppercase tracking-wider text-slate-300 mb-1.5 font-semibold"
+                    className="block text-xs font-mono uppercase tracking-wider text-white font-semibold mb-1.5"
                   >
                     Aparelho e Defeito Apresentado:
                   </label>
@@ -134,7 +134,7 @@ export const ContactSection: React.FC = () => {
                   ></textarea>
                 </div>
 
-                <div className="flex items-center gap-2 text-[11px] font-mono text-slate-400">
+                <div className="flex items-center gap-2 text-[11px] font-mono text-slate-200">
                   <CheckCircle2 className="w-3.5 h-3.5 text-whatsapp" />
                   <span>Sem robôs: atendimento com atendente técnico humano.</span>
                 </div>
