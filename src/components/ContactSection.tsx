@@ -141,7 +141,7 @@ export const ContactSection: React.FC = () => {
 
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2.5 bg-whatsapp hover:bg-whatsapp-hover text-white py-4 px-6 rounded-xl font-bold text-sm sm:text-base shadow-whatsapp transition-all hover:scale-[1.01] active:scale-[0.99] text-center mt-2 cursor-pointer"
+                  className="w-full inline-flex items-center justify-center gap-2.5 bg-whatsapp hover:bg-whatsapp-hover text-white py-4 px-6 rounded-xl font-bold text-sm sm:text-base shadow-md transition-all hover:scale-[1.01] active:scale-[0.99] text-center mt-2 cursor-pointer"
                 >
                   <Send className="w-4 h-4" />
                   <span>Enviar e Conversar no WhatsApp</span>

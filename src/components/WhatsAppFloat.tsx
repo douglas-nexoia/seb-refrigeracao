@@ -18,7 +18,7 @@ export const WhatsAppFloat: React.FC = () => {
           <span className="relative inline-flex rounded-full h-3 w-3 bg-white" />
         </span>
         <MessageCircle className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-        <span className="hidden sm:inline">WhatsApp Plantão</span>
+        <span className="hidden sm:inline">Chamar no WhatsApp</span>
       </a>
     </aside>
   );

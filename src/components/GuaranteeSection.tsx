@@ -89,7 +89,7 @@ export const GuaranteeSection: React.FC = () => {
               onClick={() => reportarConversaoWhatsApp()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-xl shadow-whatsapp transition-all flex-shrink-0"
+              className="inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-xl shadow-md transition-all flex-shrink-0"
             >
               <span>Solicitar Técnico no WhatsApp</span>
               <ArrowRight className="w-4 h-4" />

@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute = '/' }) => {
           <a
             href={OFFICIAL_PHONE_LINK}
             onClick={() => reportarConversaoTelefone()}
-            className="flex items-center gap-2 px-3 py-2 rounded-lg border border-white/15 bg-white/5 hover:bg-white/10 text-white font-mono text-xs transition-colors"
+            className="flex items-center gap-2 px-3 py-2 rounded-lg border border-white/20 bg-white/5 hover:bg-white/10 text-white font-mono text-xs whitespace-nowrap flex-shrink-0 transition-colors"
             title="Ligar para a SEB Refrigeração"
           >
             <Phone className="w-3.5 h-3.5 text-cyan" />
@@ -81,7 +81,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute = '/' }) => {
             onClick={() => reportarConversaoWhatsApp()}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-whatsapp transition-all hover:scale-[1.02] active:scale-[0.98]"
+            className="flex items-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-md transition-all hover:scale-[1.02] active:scale-[0.98] whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />
             <span>Chamar no WhatsApp</span>
@@ -149,7 +149,7 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute = '/' }) => {
               }}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-whatsapp text-white font-bold text-sm shadow-whatsapp"
+              className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-whatsapp text-white font-bold text-sm shadow-md"
             >
               <MessageCircle className="w-4 h-4" />
               <span>Falar no WhatsApp</span>

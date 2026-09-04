@@ -136,7 +136,7 @@ export const Coverage: React.FC = () => {
               onClick={() => reportarConversaoWhatsApp()}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-between bg-whatsapp hover:bg-whatsapp-hover text-white text-xs font-bold px-4 py-3 rounded-xl shadow-whatsapp transition-all text-center"
+              className="inline-flex items-center justify-between bg-whatsapp hover:bg-whatsapp-hover text-white text-xs font-bold px-4 py-3 rounded-xl shadow-md transition-all text-center"
             >
               <span>Verificar disponibilidade no meu CEP</span>
               <ArrowRight className="w-4 h-4" />

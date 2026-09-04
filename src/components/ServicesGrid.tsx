@@ -144,7 +144,7 @@ export const ServicesGrid: React.FC = () => {
                     onClick={() => reportarConversaoWhatsApp()}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white py-3 px-4 rounded-xl font-bold text-sm shadow-whatsapp transition-all text-center"
+                    className="w-full inline-flex items-center justify-center gap-2 bg-whatsapp hover:bg-whatsapp-hover text-white py-3 px-4 rounded-xl font-bold text-sm shadow-md transition-all text-center"
                   >
                     <span>Chamar no WhatsApp</span>
                     <ArrowRight className="w-4 h-4" />
