@@ -68,11 +68,11 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute = '/' }) => {
           <a
             href={OFFICIAL_PHONE_LINK}
             onClick={() => reportarConversaoTelefone()}
-            className="flex items-center gap-2 px-3 py-2 rounded-lg border border-white/20 bg-white/5 hover:bg-white/10 text-white font-mono text-xs whitespace-nowrap flex-shrink-0 transition-colors"
+            className="flex items-center gap-2 px-3.5 py-2 rounded-lg border border-white/30 bg-white/10 hover:bg-white/15 text-white font-mono font-semibold text-xs whitespace-nowrap flex-shrink-0 transition-colors shadow-sm"
             title="Ligar para a SEB Refrigeração"
           >
             <Phone className="w-3.5 h-3.5 text-cyan" />
-            <span>{OFFICIAL_PHONE_DISPLAY}</span>
+            <span className="text-white font-bold">{OFFICIAL_PHONE_DISPLAY}</span>
           </a>
 
           {/* WhatsApp Primary CTA */}
@@ -135,10 +135,10 @@ export const Header: React.FC<HeaderProps> = ({ currentRoute = '/' }) => {
                 reportarConversaoTelefone();
                 setIsMenuOpen(false);
               }}
-              className="w-full flex items-center justify-center gap-2.5 py-3 rounded-lg border border-white/20 text-white font-mono text-sm bg-white/5"
+              className="w-full flex items-center justify-center gap-2.5 py-3 rounded-lg border border-white/30 text-white font-mono font-bold text-sm bg-white/10 hover:bg-white/15"
             >
               <Phone className="w-4 h-4 text-cyan" />
-              <span>Ligar: {OFFICIAL_PHONE_DISPLAY}</span>
+              <span className="text-white font-bold">Ligar: {OFFICIAL_PHONE_DISPLAY}</span>
             </a>
 
             <a
