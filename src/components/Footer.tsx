@@ -116,15 +116,10 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Legal Disclaimer */}
-        <div className="pt-8 border-t border-white/10 text-[11px] text-slate-300 leading-relaxed space-y-3 font-sans">
-          <p>
-            * Aviso Legal: A SEB Refrigeração é uma empresa independente prestadora de serviços de manutenção e assistência técnica domiciliar especializada multimarcas. Não possuímos vínculo de autorizada exclusiva com os fabricantes citados neste site (Brastemp, Consul, Electrolux, Samsung, LG, Panasonic, Midea etc.). Todas as marcas e nomes comerciais pertencem aos seus respectivos detentores e são citados unicamente com o propósito de indicar a compatibilidade e a destinação dos serviços de conserto oferecidos.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-2 pt-2 border-t border-white/5 text-slate-300 font-mono text-[10px]">
-            <p>© {new Date().getFullYear()} SEB REFRIGERAÇÃO — Todos os direitos reservados.</p>
-            <p>São Paulo / SP · Atendimento em Domicílio</p>
-          </div>
+        {/* Footer Bottom / Copyright */}
+        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-slate-300 font-mono text-[11px]">
+          <p>© {new Date().getFullYear()} SEB REFRIGERAÇÃO — Todos os direitos reservados.</p>
+          <p>São Paulo / SP · Atendimento em Domicílio</p>
         </div>
       </div>
     </footer>
