@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    font-family: 'Public Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    @apply bg-base text-slate-100 antialiased selection:bg-cyan selection:text-base;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.container-max {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}

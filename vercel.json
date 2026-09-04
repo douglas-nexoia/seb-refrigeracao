@@ -1,0 +1,46 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/geladeira",
+      "destination": "/conserto-geladeira",
+      "permanent": true
+    },
+    {
+      "source": "/maquina-de-lavar",
+      "destination": "/conserto-maquina-de-lavar",
+      "permanent": true
+    },
+    {
+      "source": "/microondas",
+      "destination": "/conserto-microondas",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/conserto-geladeira",
+      "destination": "/conserto-geladeira.html"
+    },
+    {
+      "source": "/conserto-geladeira/",
+      "destination": "/conserto-geladeira.html"
+    },
+    {
+      "source": "/conserto-maquina-de-lavar",
+      "destination": "/conserto-maquina-de-lavar.html"
+    },
+    {
+      "source": "/conserto-maquina-de-lavar/",
+      "destination": "/conserto-maquina-de-lavar.html"
+    },
+    {
+      "source": "/conserto-microondas",
+      "destination": "/conserto-microondas.html"
+    },
+    {
+      "source": "/conserto-microondas/",
+      "destination": "/conserto-microondas.html"
+    }
+  ]
+}
